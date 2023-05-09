@@ -1,0 +1,13 @@
+/* For Tab */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    #histories {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* For Mobile */
+@media only screen and (max-width:767px) {
+    #histories {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
